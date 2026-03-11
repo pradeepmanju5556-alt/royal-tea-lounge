@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Royal Tea Lounge</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<style>
+
+body{
+margin:0;
+font-family:Arial;
+background:#f7f3ed;
+}
+
+/* HEADER */
+
+header{
+background:#2b1b12;
+color:white;
+padding:15px 30px;
+display:flex;
+justify-content:space-between;
+align-items:center;
+}
+
+.logo{
+font-size:26px;
+color:#D4AF37;
+font-weight:bold;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+}
+
+/* HERO */
+
+.hero{
+height:420px;
+background:url("https://images.unsplash.com/photo-1509042239860-f550ce710b93");
+background-size:cover;
+display:flex;
+flex-direction:column;
+justify-content:center;
+align-items:center;
+color:white;
+text-shadow:2px 2px 6px black;
+}
+
+.hero h1{
+font-size:50px;
+margin:0;
+}
+
+.hero p{
+color:#D4AF37;
+font-size:22px;
+}
+
+/* SECTION */
+
+section{
+padding:60px;
+text-align:center;
+}
+
+h2{
+color:#2b1b12;
+}
+
+/* MENU */
+
+.menu{
+display:flex;
+flex-wrap:wrap;
+justify-content:center;
+gap:25px;
+}
+
+.item{
+background:white;
+padding:20px;
+border-radius:10px;
+width:200px;
+box-shadow:0 0 10px rgba(0,0,0,0.1);
+}
+
+.price{
+color:#D4AF37;
+font-weight:bold;
+}
+
+/* GALLERY */
+
+.gallery{
+display:flex;
+flex-wrap:wrap;
+gap:15px;
+justify-content:center;
+}
+
+.gallery img{
+width:260px;
+border-radius:8px;
+}
+
+/* CONTACT */
+
+.contact{
+background:#2b1b12;
+color:white;
+}
+
+.whatsapp{
+background:#25D366;
+color:white;
+padding:12px 20px;
+border:none;
+border-radius:5px;
+font-size:16px;
+cursor:pointer;
+}
+
+/* FOOTER */
+
+footer{
+background:#111;
+color:white;
+text-align:center;
+padding:15px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">Royal Tea Lounge</div>
+
+<nav>
+<a href="#">Home</a>
+<a href="#menu">Menu</a>
+<a href="#gallery">Gallery</a>
+<a href="#contact">Contact</a>
+</nav>
+
+</header>
+
+<div class="hero">
+
+<h1>Royal Tea Lounge</h1>
+<p>The Luxury of Tea</p>
+
+</div>
+
+<section id="menu">
+
+<h2>Our Premium Tea</h2>
+
+<div class="menu">
+
+<div class="item">
+<h3>Masala Tea</h3>
+<p class="price">₹10</p>
+</div>
+
+<div class="item">
+<h3>Ginger Tea</h3>
+<p class="price">₹12</p>
+</div>
+
+<div class="item">
+<h3>Elaichi Tea</h3>
+<p class="price">₹15</p>
+</div>
+
+<div class="item">
+<h3>Lemon Tea</h3>
+<p class="price">₹15</p>
+</div>
+
+<div class="item">
+<h3>Royal Special Tea</h3>
+<p class="price">₹20</p>
+</div>
+
+</div>
+
+</section>
+
+<section id="gallery">
+
+<h2>Tea Gallery</h2>
+
+<div class="gallery">
+
+<img src="https://images.unsplash.com/photo-1498804103079-a6351b050096">
+<img src="https://images.unsplash.com/photo-1511920170033-f8396924c348">
+<img src="https://images.unsplash.com/photo-1461023058943-07fcbe16d735">
+
+</div>
+
+</section>
+
+<section id="contact" class="contact">
+
+<h2>Visit Royal Tea Lounge</h2>
+
+<p>Enjoy the royal taste of premium tea.</p>
+
+<br>
+
+<a href="https://wa.me/91XXXXXXXXXX">
+<button class="whatsapp">Order on WhatsApp</button>
+</a>
+
+</section>
+
+<footer>
+
+<p>© 2026 Royal Tea Lounge – The Luxury of Tea</p>
+
+</footer>
+
+</body>
+</html>
